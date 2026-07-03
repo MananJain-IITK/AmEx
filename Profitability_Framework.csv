@@ -1,0 +1,9 @@
+Component,Feature_Used,Proxy_Logic_Applied
+Revenue,f1 (Average Revolve Balance),Multiplied by 18% (0.18) standard premium APR
+Revenue,f5 (Total Spend),Multiplied by 2.5% (0.025) merchant discount rate
+Revenue,"f19, f20 (Supp/Active Cards)","$600 for active cards, $300 for supplementary"
+Direct Cost,f21 (Rewards Redeemed),Multiplied by $0.015 cost per point
+Direct Cost,"f14, f15, f16 (Benefit Credits)",Subtracted at face value ($1 for $1)
+Direct Cost,f13 (Lounge Access),Multiplied by $30 internal cost per visit
+Expected Credit Loss,f3 (Collection Calls),Flat $5000 penalty for collection behavior
+Expected Credit Loss,f11 (Average Risk Score),Exponential scaling mapped to revolve balance
